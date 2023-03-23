@@ -1,6 +1,6 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Andrew Moore
+subtitle: Founder of the Auton Lab
 layout: default
 modal-id: 1
 date: 2014-07-18

@@ -272,12 +272,14 @@ header {
     background-image: url('{{ site.baseurl }}/img/auton-bg.png');
     background-position: center center;
     background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: 50vh;
+    padding-top: 20vh;
     -o-background-size: cover;
 }
-
+/*
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -299,7 +301,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
-
+*/
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;

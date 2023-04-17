@@ -10,23 +10,25 @@ description: "Auton Lab's 30th Anniversary"
 # Team names, titles and social links
 people:
 - name: Artur Dubrawski
-  pic: 1
+  pic: 4
   position: Research Professor, Director of the Auton Lab
 
-- name: Jeff Schneider
-  pic: 2
-  position: Research Professor
+- name: Andrew Moore
+  pic: 7
+  position: Founder of the Auton Lab
 
 - name: Barnabas Poczos
-  pic: 3
+  pic: 5
   position: Associate Professor
   social:
     - title: homepage
       url: http://www.cs.cmu.edu/~bapoczos/
 
-- name: Andrew Moore
-  pic: 1
-  position: Founder of the Auton Lab
+- name: Jeff Schneider
+  pic: 6
+  position: Research Professor
+
+  
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

@@ -868,3 +868,24 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+/* RSVP Form responsiveness */
+
+@media(max-width:768px) {
+    .rsvp-form {
+        width: 400;
+    }
+}
+
+@media(min-width:992px) {
+    .rsvp-form {
+        width: 600;
+    }
+}
+
+@media(min-width:1200px) {
+    .rsvp-form {
+        width: 800;
+    }
+}

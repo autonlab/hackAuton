@@ -872,20 +872,20 @@ body {
 
 /* RSVP Form responsiveness */
 
-@media(max-width:768px) {
+@media(min-width:768px) {
     .rsvp-form {
-        width: 400;
+        width: 500px;
     }
 }
 
 @media(min-width:992px) {
     .rsvp-form {
-        width: 600;
+        width: 800px;
     }
 }
 
 @media(min-width:1200px) {
     .rsvp-form {
-        width: 800;
+        width: 900px;
     }
 }

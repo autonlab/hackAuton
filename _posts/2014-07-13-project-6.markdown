@@ -1,11 +1,11 @@
 ---
-title: Round Icons
-subtitle: Healthcare & Public Health
+title: Healthcare & Public Health
+subtitle: Research at the intersection of medicine and machine learning
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: health-care_2.jpg
+thumbnail: health-care_2.jpg
 alt: image-alt
 project-date: April 2014
 client: UPMC

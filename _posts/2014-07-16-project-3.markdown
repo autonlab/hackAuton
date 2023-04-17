@@ -1,15 +1,15 @@
 ---
 title: Safety & Security
-subtitle: AI in critical contexts
+subtitle: Leveraging AI in critical contexts
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: ntsb.jpg
+thumbnail: ntsb.jpg
 alt: image-alt
 project-date: April 2014
 client: Government
 category: Safety
-description: Our projects in this application area represent a variety of critical contexts for artificial intelligence and machin learning that are collaborations with ndustrial and government sponsors at the local, state, and federal level.
+description: Our projects in this application area represent a variety of critical contexts for artificial intelligence and machin learning that are collaborations with industrial and government sponsors at the local, state, and federal level.
 
 ---

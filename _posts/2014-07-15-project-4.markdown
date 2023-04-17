@@ -1,11 +1,11 @@
 ---
 title: Robotics & Autonomous Vehicles
-subtitle: 
+subtitle: Perception, cognition, and actuation of various robotics systems
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: argo_cmu.jpg
+thumbnail: argo_cmu.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

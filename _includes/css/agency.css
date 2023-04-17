@@ -271,13 +271,11 @@ header {
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/auton-bg.png');
     background-position: center center;
-    background-repeat: none;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: 50vh;
-    padding-top: 20vh;
-    -o-background-size: cover;
+    background-size: 40%;
+    -webkit-background-size: 40%;
+    -moz-background-size: 40%;
+    -o-background-size: 40%;
 }
 /*
 header .intro-text {

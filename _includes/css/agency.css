@@ -265,11 +265,16 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/auton-bg.png');
+/*    background-image: url('{{ site.baseurl }}/img/auton-bg.png');
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -277,7 +282,7 @@ header {
     background-origin: padding-box;
     -webkit-background-size: 60%;
     -moz-background-size: 60%;
-    -o-background-size: 60%;
+    -o-background-size: 60%; */
 }
 /*
 header .intro-text {

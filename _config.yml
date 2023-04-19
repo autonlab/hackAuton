@@ -12,10 +12,14 @@ people:
 - name: Artur Dubrawski
   pic: 4
   position: Research Professor, Director of the Auton Lab
+  social:
+    - url: https://web.archive.org/web/20031018171835/http://www.autonlab.org/autonweb/showPerson/28/
 
 - name: Andrew Moore
   pic: 7
   position: Founder of the Auton Lab
+  social:
+    - url: https://web.archive.org/web/20031018172704/http://www.autonlab.org/autonweb/showPerson/4/
 
 - name: Barnabas Poczos
   pic: 5
@@ -27,6 +31,8 @@ people:
 - name: Jeff Schneider
   pic: 6
   position: Research Professor
+  social:
+   - url: https://web.archive.org/web/20031012072616/http://www-2.cs.cmu.edu/~schneide/
 
   
 

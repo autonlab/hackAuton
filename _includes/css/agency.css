@@ -660,7 +660,7 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 section#contact {
@@ -892,4 +892,22 @@ body {
     .rsvp-form {
         width: 900px;
     }
+}
+
+
+/* Sponsors section grid */
+.sponsors {
+    display: flex;
+    flex: 1 1 10em;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-logos {
+   display: block;
+   width: 10em;
+   height: auto;
+   margin: auto;
 }

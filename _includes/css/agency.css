@@ -57,6 +57,22 @@ h6 {
     font-weight: 700;
 }
 
+
+.banner-primary {
+	color: white;
+	font-family: "Kaushan Script";
+	font-weight: 700;
+    font-size: 40px;
+    background-color: #{{ site.data.template.color.primary}};
+}
+.banner-tertiary {
+	color: white;
+	font-family: "Kaushan Script";
+	font-weight: 700;
+    font-size: 40px;
+    background-color: #{{ site.data.template.color.tertiary}};
+}
+
 .img-centered {
     margin: 0 auto;
 }

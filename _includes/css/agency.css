@@ -663,6 +663,8 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 20vw;
+    height: auto;
 }
 
 .team-member h4 {
@@ -676,7 +678,7 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 section#contact {
@@ -926,4 +928,39 @@ body {
    width: 10em;
    height: auto;
    margin: auto;
+}
+
+
+/* Event Table Styling */
+
+table.tableizer-table {
+    font-size: 12px;
+    border: 1px solid #CCC; 
+    margin: auto;
+    width: 45vw;
+    height: auto;
+} 
+
+.event-table {
+    padding-top: 50px;
+} 
+
+.tableizer-table th {
+    color: #222;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+}
+
+.table-secondrow {
+    background-color: #8a9cfa; 
+    color: #222222;
+    font-size: medium;
+    text-align: center;
 }

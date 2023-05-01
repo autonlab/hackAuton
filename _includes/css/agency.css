@@ -10,6 +10,7 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
@@ -1090,3 +1091,7 @@ table.tableizer-table {
   }
 
   /* ----------------- END Timeline Section --------------- */
+
+  .logo {
+    background-image: url('img/grey.png');
+  }

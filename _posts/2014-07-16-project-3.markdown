@@ -1,11 +1,11 @@
 ---
-title: Safety & Security
-subtitle: Leveraging AI in critical contexts
+title: Challenge Problem 3
+subtitle: Investigate time-series data and identify trends and relationships!
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: ntsb.jpg
-thumbnail: ntsb.jpg
+img: aircraft.jpeg
+thumbnail: aircraft.jpeg
 alt: image-alt
 project-date: April 2014
 client: Government

@@ -1,11 +1,11 @@
 ---
-title: Trustworthy AI
-subtitle: Challenges in deployment of AI
+title: Challenge Problem 1
+subtitle: Leverage health care data to generate impactful insights!
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: trustworthy_ai_workflow.jpg
-thumbnail: trustworthy_ai_workflow.jpg
+img: health-care.jpeg
+thumbnail: health-care.jpeg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

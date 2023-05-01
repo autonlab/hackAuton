@@ -1,11 +1,11 @@
 ---
-title: Informed Machine Learning
-subtitle: Incorporating expert domain knowledge into AI systems
+title: Challenge Problem 2
+subtitle: Analyze a computer vision dataset and create a tool that solves a real-world problem!
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: informed_ml.jpg
-thumbnail: informed_ml.jpg
+img: computer-vision.jpeg
+thumbnail: computer-vision.jpeg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

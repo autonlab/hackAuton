@@ -1116,3 +1116,14 @@ button:focus {
   .grey-tile {
     background-image: url('img/grey.png');
   }
+
+
+  /* ----------------- Research Topics Page Styling ------------ */
+
+  .topic-list {
+    list-style: disc;
+  }
+
+  .topic-list li {
+    margin-bottom: 10px;
+  }

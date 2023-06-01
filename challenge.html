@@ -8,10 +8,59 @@ permalink: /challenge/
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Challenge Problems</h2>
-                    <h3 class="section-subheading text-muted">Think you have what it takes? Tackle our machine learning, data science, and AI challenge problems!</h3>
+                    <h2 class="section-heading">Hackathon Topics</h2>
+                    <h3 class="section-subheading text-muted" style="margin-bottom: 50px;">These are some of the research topics that are particularly interesting to think about going forward.</h3>
                 </div>
             </div>
+            <div class="row">
+                <h2>1. AI Safety</h2>
+                <h3 class="section-subheading text-muted" style="margin-top: 2px; margin-bottom: 15px;">Trustworthiness, Interpretability, AI x Policy</h3>
+                <p>AI has the potential to revolutionize many aspects of our lives, from healthcare and transportation to entertainment and finance. However, with this great power comes great responsibility. Ensuring that AI is safe and aligned with human values is crucial to avoid unintended consequences and negative impacts on society.</p>
+                <h3>Examples:</h3>
+                <ul class="topic-list">
+                    <li><i>Deepfakes:</i> Deepfakes are AI-generated videos or images that can be used to manipulate public opinion or defame individuals. They have already been used to spread false information and create fake news. A recent *NPR article* highlights technical and policy challenges.
+                    </li>
+                    <li><i>Autonomous Vehicles:</i> Self-driving cars are becoming more common on our roads, but there are still concerns about their safety and ability to make ethical decisions in complex situations. The National Highway Traffic Safety Administration identifies autonomous vehicle safety as one of four core topics for technology and innovation.
+                    </li>
+                    <li><i>Bias:</i> AI algorithms can be biased if they are trained on biased data. This can lead to discrimination and unfair treatment of certain groups. The National Institute of Standards and Technology comments on the scope and challenge of AI bias.
+                    </li>
+                    <li><i>Explainability and Interpretability:</i> Certain applications of AI must justify critical decisions or earn the trust of users through transparency. Meanwhile, popular focus continues to trend toward increasingly large and complex black-box models. IBM discusses the value of explainable artificial intelligence (XAI).
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <h2 style="margin-top: 40px;">2. Green/Sustainable AI/ML</h2>
+                <h3 class="section-subheading text-muted" style="margin-top: 2px; margin-bottom: 15px;">Resource constrained AI. How can we leverage smarter AI without consuming compute and energy resources at unsustainable rates?</h3>
+                <p>As the size of models has increased and their use become more widespread, concerns about sustainability have emerged. To ensure long-term cost-effectiveness and minimize environmental impact, it is essential to explore ways to leverage smarter AI without consuming resources at unsustainable rates.</p>
+                <h3>Examples:</h3>
+                <ul class="topic-list">
+                    <li><i>Energy Consumption:</i> For large models, both training and inference consume substantial amounts of energy. This is costly, limiting the ways these models can be practically deployed. Energy consumption is also associated with carbon emissions. An article by MIT Technology Review summarizes energy and emissions concerns.
+                    </li>
+                    <li><i>Hardware:</i> Expensive hardware such as GPUs or TPUs is required for large models. A CNBC article notes that the primary data center GPU from NVIDIA costs $10,000, and more recent high-end chips can cost several times that. Frequent upgrades and replacements also result in electronic waste (e-waste) that poses environmental hazards.
+                    </li>
+                    <li><i>Data Costs:</i> Collecting and preparing a sufficient amount of training data also comes with labor, computation, and storage costs. Techniques that reduce data-related costs can improve the sustainability of developing AI systems.
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <h2 style="margin-top: 40px;">3. Reducing ML Development Cycle Time</h2>
+                <h3 class="section-subheading text-muted" style="margin-top: 2px; margin-bottom: 15px;">How can we get fast prototypes? Reactionary AI? Generalized problem solving?</h3>
+                <p>Building specialized AI systems requires a large amount of time and effort from a limited pool of experts. Improving accessibility to AI by reducing these barriers and avoiding common errors can make AI more impactful in a more diverse range of applications.
+                </p>
+                <h3>Examples:</h3>
+                <ul class="topic-list">
+                    <li><i>Automatic Design:</i> Automated Machine Learning (AutoML) and automatic hyperparameter tuning can dramatically reduce design effort and development time. For example, see the Auton Lab’s own AutoML system, AutonML.
+                    </li>
+<!-- missing explanation                    <li><i>Reactionary AI:</i>
+                    </li> -->
+                    <li><i>Generalized Problem Solving:</i> Developing general solutions can reduce effort for specialized tasks, especially by reducing the amount and quality of data required for success in the target tasks. For example, transfer learning adapts models from one task to another related task, while foundation models are purpose-built to be fine-tuned for a wide range of tasks.
+                    </li>
+                    <li><i>Collaboration and Resource Sharing:</i> Establishing open platforms for collaboration and knowledge sharing among ML practitioners, researchers, and industry experts accelerates learning and promotes best practices. Sharing code, datasets, and research findings can help others build upon existing work, reducing duplication of effort.
+                    </li>
+                </ul>
+            </div>
+
+<!--   ## ORIGINAL CODE FROM TEMPLATE - NOT USING ##
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-sm-4 portfolio-item">
@@ -29,6 +78,6 @@ permalink: /challenge/
                     </div>
                 </div>
             {% endfor %}
-            </div>
+            </div>  -->
         </div>
     </section>

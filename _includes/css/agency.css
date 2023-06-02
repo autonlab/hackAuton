@@ -679,10 +679,6 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 15px auto;
-}
-
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
@@ -915,22 +911,7 @@ body {
 }
 
 
-/* Sponsors section grid */
-.sponsors {
-    display: flex;
-    flex: 1 1 10em;
-    flex-wrap: wrap;
-    gap: 5px 10px;
-    justify-content: center;
-    align-items: center;
-}
 
-.sponsor-logos {
-   display: block;
-   width: 10em;
-   height: auto;
-   margin: auto;
-}
 
 
 /* Event Table Styling */
@@ -970,7 +951,7 @@ table.tableizer-table {
 
 /* ----------------- Timeline Section --------------- */
 
-
+/*
 ul {
 	list-style: none;
 	margin: 0 !important;
@@ -1019,18 +1000,18 @@ button:focus {
 	content: "";
 	position: absolute;
 	left: 0;
-	right: 0;
+	right: unset;
 	margin: auto;
 	height: 100%;
 	width: 2px;
 	background: #8a9cfa;
-	top: 20px;
+	top: 0;
 }
 .single-timeline {
 	margin-bottom: 22px;
 }
 .timeline-blank {
-	width: 50%;
+	display: none;
 }
 .timeline-text {
 	width: 50%;
@@ -1051,8 +1032,17 @@ button:focus {
 	width: 100%;
 }
 .single-timeline:nth-child(even) .timeline-text span {
-	text-align: right;
+	text-align: left !important;
 }
+*/
+/* added by aleeya */
+/*
+.single-timeline:nth-child(2n) .timeline-text {
+    padding-left: 30px;
+    padding-right: 0;
+    text-align: left;
+}
+
 .t-square {
 	content: "";
 	position: absolute;
@@ -1075,6 +1065,11 @@ button:focus {
 	padding-left: 0;
 	padding-right: 30px;
 	text-align: right;
+}
+
+.single-timeline:nth-child(2n) .t-square {
+    left: -6px;
+    right: unset;
 }
 
 @media all and (max-width: 991px) {
@@ -1110,7 +1105,7 @@ button:focus {
 		top: 32px;
 	}
 }
-
+ */
   /* ----------------- END Timeline Section --------------- */
 
   .grey-tile {
@@ -1127,3 +1122,51 @@ button:focus {
   .topic-list li {
     margin-bottom: 10px;
   }
+
+  /* ----------------- sponsors styling ---------------- */
+
+.sponsors {
+    display: flex;
+    flex: 1 1 10em;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-logos {
+   width: 10vw;
+   height: auto;
+   margin-left: 0;
+}
+
+.sponsors-grid-container {
+    padding-top: 30px;
+    display: grid;
+    margin: auto;
+    row-gap: 25px;
+    border-left: medium solid #CCC;
+    border-right: medium solid #CCC;
+    border-bottom: medium solid #CCC;
+}
+.sponsors-grid-container:last-child {
+    padding-bottom: 20px;
+}
+
+.grid-child {
+    display: flex;
+    width: 65vw;
+    height: auto;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.grid-child p {
+    margin: auto 0;
+    padding-left: 25px;
+    flex-grow: 2;
+}
+
+.sponsors-border {
+    
+}

@@ -278,7 +278,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px;
         background-color: #222;
     }
 
@@ -350,7 +350,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 section h2.section-heading {
@@ -1145,9 +1145,13 @@ button:focus {
     display: grid;
     margin: auto;
     row-gap: 25px;
-    border-left: medium solid #CCC;
-    border-right: medium solid #CCC;
-    border-bottom: medium solid #CCC;
+    margin: auto;
+    width: 80vw;
+    background: #fff;
+    box-shadow: 0 3px 24px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    padding: 10px;
+    overflow: auto;
 }
 .sponsors-grid-container:last-child {
     padding-bottom: 20px;
@@ -1168,5 +1172,44 @@ button:focus {
 }
 
 .sponsors-border {
-    
+ 
+}
+
+.row-schedule {
+    margin: auto;
+    width: 80vw;
+    background: #fff;
+    box-shadow: 0 3px 24px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.topics-container {
+    margin: auto;
+    width: 90vw;
+    background: #fff;
+    box-shadow: 0 3px 24px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.nav
+.navbar
+.navbar-default
+.navbar-fixed-top
+.navbar-default
+.navbar-shrink 
+.navbar-default.navbar-shrink {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*       logo banner styling     */
+
+.banner-container {
+    display: flex;
+    justify-content: center;
 }

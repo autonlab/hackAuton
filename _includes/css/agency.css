@@ -360,7 +360,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 20px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
@@ -1172,9 +1172,6 @@ button:focus {
     flex-grow: 2;
 }
 
-.sponsors-border {
- 
-}
 
 .row-schedule {
     margin: auto;
@@ -1188,7 +1185,7 @@ button:focus {
 
 .topics-container {
     margin: auto;
-    width: 90vw;
+    width: 80vw;
     background: #fff;
     box-shadow: 0 3px 24px rgba(0,0,0,0.08);
     border-radius: 4px;

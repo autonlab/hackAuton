@@ -1151,6 +1151,7 @@ button:focus {
     box-shadow: 0 3px 24px rgba(0,0,0,0.08);
     border-radius: 4px;
     padding: 10px;
+    padding-top: 30px;
     overflow: auto;
 }
 .sponsors-grid-container:last-child {
@@ -1191,7 +1192,7 @@ button:focus {
     background: #fff;
     box-shadow: 0 3px 24px rgba(0,0,0,0.08);
     border-radius: 4px;
-    padding: 10px;
+    padding: 48px;
     overflow: auto;
 }
 
@@ -1205,8 +1206,6 @@ button:focus {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-
-
 
 /*       logo banner styling     */
 
